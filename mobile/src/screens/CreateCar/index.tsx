@@ -27,7 +27,7 @@ export function CreateCar() {
         value: data.value,
       });
       if (res.data.error === false) {
-        if (data.preview.uri) {
+        if (data?.preview?.uri) {
           const formData = new FormData();
           const file = {
             uri: data?.preview?.uri,
