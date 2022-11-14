@@ -20,7 +20,7 @@ export function Car({ data }: Props) {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("../../assets/background4.png")}
+        source={require("../../assets/background.png")}
         resizeMode="cover"
         style={styles.image}
         imageStyle={{ borderRadius: 10 }}
