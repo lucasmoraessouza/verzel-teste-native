@@ -20,6 +20,20 @@ export function CreateCar() {
 
   async function handleSubmit() {
     try {
+      if (
+        data.model === "" ||
+        data.brand === "" ||
+        data.model === "" ||
+        data.year === "" ||
+        data.value === ""
+      ) {
+        return showToast({
+          type: "error",
+          title: "Error!",
+          text: "Fill in all fields.",
+        });
+      }
+
       const res = await api.post("/car", {
         brand: data.brand,
         model: data.model,
