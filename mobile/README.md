@@ -1,14 +1,55 @@
-Verzel - Teste pratico React Native
+# CarControl-ReactNative
+
+Aplicativo mobile utilizando React Native[EXPO] feito para cadastrar e gerenciar carros, utilizando autenticação, conexão com o MongoDB.
+
+## Começando
+
+Necessario o backend rodando.
 
 ### Requisitos
 
-- [x] Home page publica exibindo a vitrine de veiculos
-- [] Veiculos ordenados em ordem de valor
-- [] Cadastro de veiculos atraves de um login adminstrativo
-- [] Cadastro de veiculos devera ter listagem, criacao, edicao e delete de registros.
-- [] Obrigatorio: Id, nome, Marca, Modelo e foto
+- Node
+- React Native
+- [Backend](https://github.com/lucasmoraessouza/verzel-teste-nodejs)
 
-### Regras de negócio
+### Iniciando
 
-- [] O Sistema so pode ser acessado se o usuario for autenticado
-- [] Requisicoes privadas precisam de um token valido gerado no login para funcionamento da requisicao
+```
+$ git clone https://github.com/lucasmoraessouza/verzel-teste-native.git
+```
+
+```
+$ cd verzel-teste-native
+```
+
+```
+$ yarn install
+```
+
+```
+$ expo start
+```
+
+### Configuração
+
+- Baixar o Backend
+- Iniciar o servidor
+- Alterar o localhost
+
+## Testes
+
+- Entre na aplicação e veja os carros cadastrados no sistema.
+- Faça o login na aplicação como administrador.
+- Administradores podem criar, editar e excluir os carros, com ações arrastando o card.
+
+## Autores
+
+- **Lucas de Moraes Souza**
+
+## Licença
+
+- Nenhuma
+
+## Agradecimentos
+
+- Verzel
